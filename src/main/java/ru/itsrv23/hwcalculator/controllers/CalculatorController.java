@@ -9,7 +9,7 @@ import ru.itsrv23.hwcalculator.servises.CalculatorService;
 
 
 @RestController
-@RequestMapping("/calculatorService") // да да, именно так в по заданию
+@RequestMapping("/calculator") // хз как попал именно в путь calculatorService, наверное идея рефакторнула и описание
 public class CalculatorController {
     private final CalculatorService calculatorService;
 
